@@ -1,0 +1,21 @@
+{
+  "name": "sqlite-demo",
+  "description": "A demo node.js app using SQLite.",
+  "version": "1.0.0",
+  "author": "hkm007",
+  "license": "ISC",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
