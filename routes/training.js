@@ -8,9 +8,9 @@ import {
 
 const trainingRouter = express.Router();
 
-trainingRouter.get("/training", getAllTrainings);
-trainingRouter.get("/training/:id", getTrainingById);
-trainingRouter.post("/training", createTraining);
-trainingRouter.delete("/training/:id", deleteTraining);
+trainingRouter.get("/", getAllTrainings);
+trainingRouter.get("/:id", getTrainingById);
+trainingRouter.post("/", createTraining);
+trainingRouter.delete("/:id", deleteTraining);
 
 export default trainingRouter;
